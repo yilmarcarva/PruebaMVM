@@ -33,6 +33,7 @@ namespace PruebaMVM.View
             DropDownList2.DataValueField = ds.Tables[0].Columns["Documento"].ToString();
             DropDownList2.DataBind();
             sqlcon.Close();
+            
         }
 
 
